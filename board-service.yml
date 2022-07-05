@@ -1,0 +1,26 @@
+posco:
+   name: board
+   count: 20212323
+datasource:
+   url: jdbc:mysql://localhost:3306/board?serverTimezone=UTC&amp&characterEncoding=UTF-8
+   username: root
+   password: 1234
+
+spring:
+   datasource:
+      url: jdbc:mysql://localhost:3306/board?serverTimezone=UTC&amp&characterEncoding=UTF-8
+      characterEncoding: UTF-8
+      username: root
+      password: '{cipher}dfe1f1b4b9b732907908dcfe1348cf305349b2bd8d1e476a25b8dc13cfddb2ed'
+   jpa:
+      hibernate:
+         ddl-auto: none
+      properties:
+         hibernate:
+            show_sql: true
+   mvc:
+      pathmatch:
+         matching-strategy: ant_path_matcher
+jwt:
+   secret_key: 123jh124kjlfkjafdasdfasdflkjkldkajsdkjdfjhasdjflksjdflkjsdlfakjskjklfdjkajdkajdskfjkf
+   expTime: 86400000
