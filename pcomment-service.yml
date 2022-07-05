@@ -1,17 +1,9 @@
-posco:
-  name: pcomment
-  count: 20212323
-datasource:
-  url: jdbc:mysql://localhost:3306/pcomment?serverTimezone=UTC&amp&characterEncoding=UTF-8
-  username: root
-  password: 1234
-
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/pcomment?serverTimezone=UTC&amp&characterEncoding=UTF-8
     characterEncoding: UTF-8
     username: root
-    password: "{cipher}aef47b74a38f0bc9fb504cf7928b813b529bbd3bbd5ade4fc1711f8a7b1a5938"
+    password: "{cipher}f60ea11dfd6b2dfdc70523d97636894beaae43e55daa26b9ed73e62936a90c74"
   jpa:
     hibernate:
       ddl-auto: none
