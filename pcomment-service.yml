@@ -1,6 +1,6 @@
 test:
   name: pcomment
-  content: testing
+  comment: good
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/pcomment?serverTimezone=UTC&amp&characterEncoding=UTF-8
